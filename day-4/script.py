@@ -20,6 +20,7 @@ print(valid_count_a)
 
 
 def check_field(key, value):
+
     if key == 'byr' and value.isdigit():
         return 1920 <= int(value) <= 2002
     elif key == 'iyr' and value.isdigit():
